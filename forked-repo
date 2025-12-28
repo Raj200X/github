@@ -1,0 +1,18 @@
+$ curl -I https://github.com/your-username/mcino-Introduction-to-Git-and-GitHub
+HTTP/2 200
+server: GitHub.com
+date: Wed, 12 Jun 2024 10:00:00 GMT
+content-type: text/html; charset=utf-8
+status: 200 OK
+
+# Note: To verify the fork relationship via API:
+$ curl https://api.github.com/repos/your-username/mcino-Introduction-to-Git-and-GitHub
+{
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "your-username/mcino-Introduction-to-Git-and-GitHub",
+  "private": false,
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}

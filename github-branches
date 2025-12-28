@@ -1,0 +1,3 @@
+$ git branch -v
+  bug-fix-typo 2f17ab3 Fix typo in README
+* main         2f17ab3 Fix typo in README

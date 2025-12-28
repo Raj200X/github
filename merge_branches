@@ -1,0 +1,7 @@
+$ git checkout main
+Switched to branch 'main'
+$ git merge bug-fix-typo
+Updating fa2adad..2f17ab3
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
